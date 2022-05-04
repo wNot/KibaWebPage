@@ -44,8 +44,24 @@ body
 }
 
 
+.alineadoalmedio
+{
+    width: 100%;
+    background-color: black !important;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 5px 100px;
+    justify-content: space-between;
+    z-index: 1;
+}
+/* .backblack
+{
+    background-color: black;
+} */
 .headerlogo
 {
+    background-color: black;
     padding: 10px 20px;
     position: relative;
     height: 30px;
@@ -54,7 +70,8 @@ body
 }
 .navbar
 {   
-    background-color: black;
+    width: 100%;
+    background-color: black !important;
     align-items: center;
     position: fixed;
     top: 0;
@@ -100,7 +117,7 @@ div h2
 }
 div h4
 {
- padding: 50px;
+    padding: 50px;
 }
 div h6
 {
@@ -124,4 +141,23 @@ section ul li
     padding: 50px;
     color: whitesmoke;
     font-size: large;
+}
+
+    /* FOOTER */
+.footerimg
+{
+    padding-left: 140px;
+    padding-right: 140px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+.footerestructura
+{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
