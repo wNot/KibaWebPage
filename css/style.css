@@ -32,9 +32,19 @@ body
     background-image: url(https://i.ibb.co/5n6zVTt/GER-4352.jpg);
 }
 
-header img
+.imgvertical
 {
-    
+    width:450px;
+    height:700px;
+}
+.imghorizontal
+{
+    width:700px;
+    height:450px;
+}
+
+.headerlogo
+{
     padding: 10px 20px;
     position: relative;
     height: 30px;
