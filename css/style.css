@@ -1,22 +1,149 @@
-/* style="text-decoration: none; color: whitesmoke;" */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-/* font-family: 'Share Tech Mono', monospace; */
+
+/* //font-family: 'Share Tech Mono', monospace;// */
+
+
 *
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Share Tech Mono', monospace;
 }
 
-#imgcentrada
+/* ------------------------------------HEADER-NAV------------------------------------ */
+
+body
 {
+    background-image: url(https://i.ibb.co/5n6zVTt/GER-4352.jpg);
+}
+.container
+{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header
+{
+    
+    display: flex;
+    height: 3rem;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+
+.header__nav
+{
+    list-style-type: none;
+}
+
+.header__nav li
+{
+    display: inline-block;
+    margin-right: 8rem;
+    
+}
+
+.header__nav li a
+{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header__nav li a:hover
+{
+    font-size: 105%;
+    color: red;
+}
+
+
+/* ------------------------------------HERO------------------------------------ */
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100% - 40px -62px);
+    color: whitesmoke;
+}
+
+.hero__img
+{
+    margin-top: 100px;
     height: 500px;
     width: 500px;
-    margin: auto;
-    display: block;
-    padding: 120px;
-    opacity: 80%;
+    opacity: 70%;
 }
+
+/* -----------------SobreNosotros----------------- */
+ 
+ .hero__sobrenosotros
+{
+    margin-top: 50px;
+    width: 100%;
+    line-height: 2rem;
+} 
+
+.hero__titulos
+{
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+.hero__textos
+{
+    background-color: rgba(0, 0, 0, 0.767);
+    font-size: x-large;
+    margin: 50PX 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2rem;
+}
+
+.hero__list
+{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: large;
+    gap: 6rem;
+}
+
+/* ------------------------------------FOOTER------------------------------------ */
+
+.footer
+{
+    margin-top: 100px;
+    display: flex;
+    border-top: 2px solid rgba(255, 255, 255, 0.575);
+    background-color: rgba(0, 0, 0, 0.637);
+    justify-content: space-around;
+}
+
+.footer__img
+{
+    width: 40px;
+    height: 40px;
+    margin: 0.5rem 7rem;
+}
+
+
+
+/* 
+
 
 #spotify
 {
@@ -34,10 +161,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
 
-}
-body
-{
-    background-image: url(https://i.ibb.co/5n6zVTt/GER-4352.jpg);
 }
 
 .imgvertical
@@ -63,60 +186,7 @@ body
     justify-content: space-between;
     z-index: 1;
 }
-/* .backblack
-{
-    background-color: black;
-} */
-.headerlogo
-{
-    position: absolute;
-    top: 12px;
-    left: 30px;
-    right: 0;
-    height: 30px;
-    width: 30px;
-}
-.navbar
-{   
-    display: flex;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    background-color: black !important;
-    /* padding: 15px 0px; */
-    justify-content:space-evenly;
-    z-index: 1;
-    padding: 20px 0px;
-}
 
-
-div ul
-{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 2px;
-    
-}
-div ul li
-{
-    list-style: none;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-div ul li a
-{
-    list-style: none;
-    text-decoration: none;
-    margin: 0 15px;
-    color: whitesmoke;
-}
-.hover:hover
-{
-    font-size: 110%;
-    color: rgb(247, 1, 13);
-}
 
 div h1
 {
@@ -157,7 +227,6 @@ section ul li
     font-size: large;
 }
 
-    /* FOOTER */
 .footerimg
 {
     
@@ -181,4 +250,4 @@ section ul li
     bottom: 0;
     text-align: center;
     vertical-align: middle;
-}
+} */
