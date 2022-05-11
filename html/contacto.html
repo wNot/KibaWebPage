@@ -12,59 +12,70 @@
     <title>contacto</title>
 </head>
 <body>
-    <nav class="navbar"> <!--  Barra de Navegacion -->
-        <header>
-        <div>
-        <img class="headerlogo" src="https://i.ibb.co/8dbjnZf/KIBA-HD-Simple.png" alt="">
-        </div>
-    </header>
-        <div>
-            <ul>  
-                <li>  
-                    <a class="hover" href="../index.html" >INICIO</a>
-                </li>
-                <li> 
-                    <a class="hover" href="sobreNosotros.html">SOBRE NOSOTROS</a>
-                </li>
-                <li> 
-                    <a class="hover" href="Escuchanos.html" >ESCUCHANOS</a>
-                </li>
-                <li> 
-                    <a class="hover" href="fotosVideos.html">FOTOS Y VIDEOS</a>
-                </li>
-                <li> 
-                    <a class="hover" href="contacto.html" >CONTACTO</a>
-                </li>
-                </ul>
-        </div>
-    </nav>
-    <div id="formulario" class="letrablanca"> <!--formulario de contacto-->
-        <form action="#">
-            <br>
-            <h3 >Contactanos!</h3>
-            <br>
-            <label for="Nombre">Nombre:</label>
-            <br>
-            <input type="text" required>
-            <br>
-            <label for="E-Mail"> E-Mail:</label>
-            <br>
-            <input type="email" required>
-            <br><br><br>
-            <label for="mensaje">Dejanos un mensaje!</label>
-            <br>
-            <textarea  name="mensaje" id="" cols="30" rows="10" required></textarea>
-            <br><br>
-            <input type="submit">
-        </form>
+    <div class="container">
+
+        <header class="header">
+
+            <img class="header__logo" src="https://i.ibb.co/8dbjnZf/KIBA-HD-Simple.png" alt="">
+
+            <nav > 
+                <div>
+                    <ul class="header__nav">
+        
+                            <li>
+                            <a class="hover" href="../index.html" >INICIO</a>
+                            </li>
+                            <li>
+                                <a class="hover" href="sobreNosotros.html">SOBRE NOSOTROS</a>
+                            </li>
+                            <li>
+                                <a class="hover" href="Escuchanos.html" >ESCUCHANOS</a>
+                            </li>
+                            <li>
+                                <a class="hover" href="fotos.html">FOTOS</a>
+                            </li>
+                            <li>
+                                <a class="hover" href="contacto.html" >CONTACTO</a>
+                            </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <section class="hero">
+            
+                <form action="#">
+                    <br>
+                    <h2 class="hero__titulos">Contactanos!</h2>
+                    <br><br><br>
+                    <label for="Nombre">Nombre:</label>
+                    <br>
+                    <input type="text" required>
+                    <br><br>
+                    <label for="E-Mail"> E-Mail:</label>
+                    <br>
+                    <input type="email" required>
+                    <br><br><br>
+                    <label for="mensaje">Dejanos un mensaje!</label>
+                    <br>
+                    <textarea  name="mensaje" id="" cols="30" rows="10" required></textarea>
+                    <br><br><br>
+                    <input class="boton" type="submit">
+                </form>
+        </section>
+
+
+        <section class="footer">
+                <div class="footer__redes">
+                    
+                    <a  href="https://www.instagram.com/kiba_oficial" target="_blank" > <img src="../img/ig logo.png" class="footer__img" alt=""></a>
+                    <a  href="https://www.youtube.com/channel/UCLz8Sfz_u0TWWksewUySAXQ" target="_blank" > <img class="footer__img" src="../img/ty logo.png" alt=""></a>
+                    <a  href="https://www.facebook.com/kibaband/" target="_blank"> <img class="footer__img" src="../img/fb logo.png"alt=""></a>
+                </div>
+        </section>
+
+
     </div>
-    <footer><!--Footer Redes-->
-        <hr>
-        <div class="footerestructura">
-            <a href="https://www.instagram.com/kiba_oficial" target="_blank" > <img src="../img/ig logo.png" class="footerimg" alt=""></a>
-            <a href="https://www.youtube.com/channel/UCLz8Sfz_u0TWWksewUySAXQ" target="_blank" > <img class="footerimg" src="../img/ty logo.png" alt=""></a>
-            <a href="https://www.facebook.com/kibaband/" target="_blank"> <img class="footerimg" src="../img/fb logo.png"alt=""></a>
-        </div>
-    </footer>
 </body>
 </html>
